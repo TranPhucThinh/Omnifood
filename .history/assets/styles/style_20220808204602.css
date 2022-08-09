@@ -6,7 +6,6 @@
   align-items: center;
   padding: 0 4.8rem;
   background-color: #fdf2e9;
-  position: relative;
 }
 
 .header-logo {
@@ -17,7 +16,6 @@
   display: flex;
   list-style-type: none;
   gap: 4.8rem;
-  align-items: center;
 }
 
 .main-nav-link:link,
@@ -52,8 +50,6 @@
 /* Section MOBILE */
 .btn-mobile-nav {
   cursor: pointer;
-
-  display: none;
 }
 
 .icon-mobile-nav {
@@ -66,21 +62,6 @@
   display: none;
 }
 /* End of Section MOBILE */
-
-/* Sticky NAVIGATION */
-.sticky {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 8rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.97);
-  z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
-}
-/* End of Sticky NAVIGATION */
 
 /* Section Hero */
 .section-hero {
@@ -420,8 +401,8 @@
   background-color: #ffd43b;
   padding: 0.8rem 8rem;
   position: absolute;
-  top: 6%;
-  right: -18%;
+  top: 27px;
+  right: -78px;
   transform: rotate(45deg);
 }
 
