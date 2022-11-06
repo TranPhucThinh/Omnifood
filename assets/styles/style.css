@@ -576,6 +576,10 @@
   color: #aaa;
 }
 
+/* .btn--form {
+  align-self: center;
+} */
+
 .btn--form:hover,
 .btn--form:active {
   color: #555;
@@ -680,3 +684,16 @@
 }
 
 /* End of Section Footer */
+
+/* Message error */
+.message-error {
+  display: block;
+  font-size: 16px;
+  margin-top: 12px;
+  color: #000000;
+  font-style: italic;
+}
+
+.field-error {
+  border: 2px solid red !important;
+}
